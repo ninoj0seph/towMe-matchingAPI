@@ -1,0 +1,16 @@
+{
+  "name": "tow_me-usr-driver-connect",
+  "version": "1.0.0",
+  "description": "api to connect drivers and users",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  },
+  "author": "Nino Joseph Tugade",
+  "license": "ISC"
+}
