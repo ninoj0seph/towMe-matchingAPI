@@ -14,7 +14,6 @@ app.post('/',function (request, response) {
         if(err) throw err;
         response.json(users);
     });
-
 });
 
 app.listen(3000);

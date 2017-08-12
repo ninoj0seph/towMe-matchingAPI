@@ -9,7 +9,8 @@
   "dependencies": {
     "express": "*",
     "body-parser": "*",
-    "mongoose": "*"
+    "mongoose": "*",
+    "forever" : "*"
   },
   "author": "Nino Joseph Tugade",
   "license": "ISC"
