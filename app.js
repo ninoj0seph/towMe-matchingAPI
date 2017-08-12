@@ -16,5 +16,10 @@ app.post('/',function (request, response) {
     });
 });
 
-app.listen(3000);
+app.get('*', function (request, response) {
+   response.json('Please Configure Post Request With Content-Type : application / json and send any json string');
+});
+
+
+app.listen(3001, 'localhost');
 console.log('connected');
